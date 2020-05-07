@@ -20,6 +20,9 @@ DEVICE_PATH := device/xiaomi/davinci
 
 BUILD_BROKEN_DUP_RULES := true
 
+# Wireguard
+BUILD_BROKEN_USES_NETWORK := true
+
 # Inherit from proprietary files
 include vendor/xiaomi/davinci/BoardConfigVendor.mk
 
