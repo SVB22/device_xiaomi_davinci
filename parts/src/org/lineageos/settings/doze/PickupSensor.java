@@ -69,6 +69,7 @@ public class PickupSensor implements SensorEventListener {
     @Override
     public void onSensorChanged(SensorEvent event) {
         boolean isRaiseToWake = DozeUtils.isRaiseToWakeEnabled(mContext);
+
         if (DEBUG) Log.d(TAG, "Got sensor event: " + event.values[0]);
 
         long delta = SystemClock.elapsedRealtime() - mEntryTimestamp;
