@@ -631,4 +631,10 @@
     <integer-array name="config_keyboardTapVibePattern">
         <item>20</item>
     </integer-array>
+
+    <!-- All the capabilities of the LEDs on this device, stored as a bit field -->
+    <integer name="config_deviceLightCapabilities">232</integer>
+
+    <!-- Whether device has screen with higher aspect ratio -->
+    <bool name="config_haveHigherAspectRatioScreen">true</bool>
 </resources>

@@ -1,13 +1,4 @@
-Copyright (C) 2020 The LineageOS Project
-
-Device configuration for Xiaomi Mi 9T/Redmi K20
-=========================================
-
-The Xiaomi Mi 9T/Redmi K20 (codenamed _"davinci"_) is a mid-range smartphone from Xiaomi.
-
-It was announced in June 2019. Release date was June 2019.
-
-## Device specifications
+## Specifications
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -21,6 +12,6 @@ Battery | Non-removable Li-Po 4000 mAh
 Display | 1080 x 2340 pixels, 6.39 inches (~428 ppi pixel density)
 Camera  | Main 48 MP f/1.8, telephoto lens, ultrawide lens, dual-LED (dual tone) flash
 
-## Device picture
+## Picture
 
-![Xiaomi Mi 9T/Redmi K20](https://i01.appmifile.com/webfile/globalimg/products/pc/redmik20/index_slider_1.png "Xiaomi Mi 9T/Redmi K20 in carbon black")
+![Xiaomi Mi 9T](https://fdn.gsmarena.com/imgroot/news/19/05/weekly-poll-redmi-k20/-1220x526/gsmarena_000.jpg "Xiaomi Mi 9T")
