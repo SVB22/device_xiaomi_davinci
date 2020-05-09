@@ -41,7 +41,6 @@
 #define BRIGHTNESS_PATH "/sys/class/backlight/panel0-backlight/brightness"
 
 namespace {
-
 template <typename T>
 static T get(const std::string& path, const T& def) {
     std::ifstream file(path);
