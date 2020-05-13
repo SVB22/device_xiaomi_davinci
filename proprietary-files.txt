@@ -126,6 +126,8 @@ vendor/lib/libbthost_if.so
 vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so
 
 # Camera
+lib/libcameraservice.so
+lib64/libcameraservice.so
 vendor/bin/remosaic_daemon
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so

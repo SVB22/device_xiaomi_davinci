@@ -23,12 +23,18 @@ $(call inherit-product, device/xiaomi/davinci/device.mk)
 
 # Inherit some common PixelExperience stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/titanium/config/common_full_phone.mk)
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
-PRODUCT_NAME := titanium_davinci
+PRODUCT_NAME := xtended_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9T
 PRODUCT_MANUFACTURER := Xiaomi
+
+# Official MSM-Xtended
+XTENDED_BUILD_TYPE := OFFICIAL
+
+# FOD animations
+EXTRA_FOD_ANIMATIONS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

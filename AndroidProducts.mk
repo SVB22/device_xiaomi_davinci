@@ -15,4 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/titanium_davinci.mk
+    $(LOCAL_DIR)/xtended_davinci.mk
+
+
+COMMON_LUNCH_CHOICES := \
+    xtended_davinci-user \
+    xtended_davinci-userdebug \
+    xtended_davinci-eng
